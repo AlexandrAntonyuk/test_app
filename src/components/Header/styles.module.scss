@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+
+  .search {
+    width: 60%;
+    height: 35px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px 0 #bac0c6;
+  }
+
+  .button {
+    margin-bottom: 14px;
+    box-shadow: 5px 0 10px 0 #bac0c6;
+  }
+}
