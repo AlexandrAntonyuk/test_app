@@ -16,7 +16,7 @@ export async function getOne(id) {
 
 export async function create(data) {
   let res = await api.post('articles', data)
-  if (res.status !== 200) throw new Error(`Can't fetch request`)
+  if (res.status !== 201) throw new Error(`Can't fetch request`)
 
   return res
 }
